@@ -10,8 +10,8 @@ Le funzioni sono strutturate secondo i criteri per il calcolo del codice fiscale
 - Nome
 - Data di nascita e sesso
 - Comune
-alla fine di questi calcoli separati si prende il codicefiscale non completo per trovare l'ultima cifra ovvero il codice di controllo.
 
+alla fine di questi calcoli separati si prende il codicefiscale non completo per trovare l'ultima cifra ovvero il codice di controllo.
 Sono presenti delle helper function per controllare l'input dell'utente e assicurarsi che siano corrette per la funzione in cui andranno inserite
 
 # Cosa manca
@@ -26,4 +26,15 @@ Lo script non ha nessuna dipendenza, è importante avere il file csv dei codici 
 - Clona la repo
 
 ```bash
-git clone
+git clone https://github.com/ataneko/calcolatore-codice-fiscale.git
+```
+
+- Avvia lo script da terminale
+ - MacOs/Linux
+```bash
+python3 CalcoloCodiceFiscale.py
+```
+ - Windows
+ ```bash
+ python CalcoloCodiceFiscale.py
+ ```
